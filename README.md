@@ -7,8 +7,8 @@ or ```GARCH(p, q)```. Currently only supports ```ARMA(p, q)```.
 ## Getting started
 Install the library and run the ARMA example.
 ```{python}
-pip install neuralforecast
 git clone https://github.com/maxpumperla/neuralforecast
 cd neuralforecast
+python setup.py install
 python examples/arma.py
 ```
